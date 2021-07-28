@@ -70,7 +70,7 @@ int main(int argc, char* argv[])
         {0, 0, 0, 0}
     };
 
-    while ((opt = getopt_long(argc, argv, "+hn:f:u:g:", long_options, NULL)) != EOF) {
+    while ((opt = getopt_long(argc, argv, "+hn:f:u:g:e:", long_options, NULL)) != EOF) {
         switch (opt) {
         case 'h':
             usage(argv[0]);
