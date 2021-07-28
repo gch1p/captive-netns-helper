@@ -177,9 +177,8 @@ end:
     if (ns_fd > 0)
         close(ns_fd);
 
-    if (temp_name[0] != 0) {
+    if (temp_name[0] != 0)
         unlink(temp_name);
-    }
 
     return rc;
 }
